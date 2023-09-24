@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7843B8662AC0E9E5005F1ED7 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7843B8652AC0E9E5005F1ED7 /* OnBoardingView.swift */; };
 		78560D1C2A79ECC200227890 /* Time_s_UpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78560D1B2A79ECC200227890 /* Time_s_UpApp.swift */; };
 		78560D1E2A79ECC200227890 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78560D1D2A79ECC200227890 /* ContentView.swift */; };
 		78560D202A79ECC300227890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78560D1F2A79ECC300227890 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7843B8652AC0E9E5005F1ED7 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		78560D182A79ECC200227890 /* Time's Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time's Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78560D1B2A79ECC200227890 /* Time_s_UpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_s_UpApp.swift; sourceTree = "<group>"; };
 		78560D1D2A79ECC200227890 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		78583F4C2A7ACB0600A954E3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7843B8652AC0E9E5005F1ED7 /* OnBoardingView.swift */,
 				78583F462A7ACAA900A954E3 /* HomeView.swift */,
 				78583F482A7ACACE00A954E3 /* PlayView.swift */,
 				78583F4A2A7ACAEA00A954E3 /* ChooseView.swift */,
@@ -201,6 +204,7 @@
 				78583F472A7ACAA900A954E3 /* HomeView.swift in Sources */,
 				78583F542A7ACC6B00A954E3 /* Question.swift in Sources */,
 				78560D1E2A79ECC200227890 /* ContentView.swift in Sources */,
+				7843B8662AC0E9E5005F1ED7 /* OnBoardingView.swift in Sources */,
 				78583F492A7ACACE00A954E3 /* PlayView.swift in Sources */,
 				78583FB02A7C674F00A954E3 /* PlayButton.swift in Sources */,
 				78583F512A7ACB6F00A954E3 /* CountdownView.swift in Sources */,

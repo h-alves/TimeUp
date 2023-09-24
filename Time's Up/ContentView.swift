@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("showOnboarding") private var showOnboarding = true
+    
     var body: some View {
         NavigationStack{
-            HomeView()
+            if (showOnboarding){
+                OnBoardingView(showOnboarding: $showOnboarding)
+            }else{
+                HomeView()
+                    .preferredColorScheme(.light)
+            }
         }
     }
 }
