@@ -12,7 +12,6 @@ struct PlayButton: View {
     
     var body: some View {
         HStack{
-            Image(systemName: "play.fill")
             Text(texto)
         }
         .fontWeight(.black)
@@ -24,7 +23,7 @@ struct PlayButton: View {
     }
 }
 
-struct GenericButton_Previews: PreviewProvider {
+struct PlayButton_Previews: PreviewProvider {
     static var previews: some View {
         PlayButton(texto: "teste uau")
     }

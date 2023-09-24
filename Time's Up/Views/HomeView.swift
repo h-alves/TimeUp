@@ -20,9 +20,6 @@ struct HomeView: View {
             NavigationLink(destination: PlayView(question: DataQuestions().questions.randomElement()!)) {
                 PlayButton(texto: "Play")
             }
-//            NavigationLink(destination: ChooseView(language: $language)) {
-//                PlayButton(texto: language == .english ? "Categories" : "Categorias")
-//            }
             
             Spacer()
         }

@@ -60,8 +60,13 @@ struct AnswerButton: View {
 
 struct AnswerButton_Previews: PreviewProvider {
     static var previews: some View {
-        AnswerButton(answer: .constant(Answer(text: "43 caracteres maximo", correct: false))){
-            print("a")
+        VStack{
+            AnswerButton(answer: .constant(Answer(text: "43 caracteres maximo", correct: false))){
+                print("a")
+            }
+            AnswerButton(answer: .constant(Answer(text: "43 caracteres maximo", correct: true))){
+                print("a")
+            }
         }
     }
 }

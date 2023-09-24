@@ -20,12 +20,11 @@ struct ScoreArea: View {
                 RoundedRectangle(cornerRadius: 12)
                     .stroke(Color("Penguin"), lineWidth: 5)
             )
-//            .cornerRadius(12)
     }
 }
 
 struct ScoreArea_Previews: PreviewProvider {
     static var previews: some View {
-        ScoreArea(texto: "teste")
+        ScoreArea(texto: "123456789123456789123456789123456789")
     }
 }

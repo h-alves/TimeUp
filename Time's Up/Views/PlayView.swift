@@ -33,6 +33,7 @@ struct PlayView: View {
         }
     }
     
+    // View que mostra as perguntas
     var questionView: some View {
         VStack{
             CountdownView(counter: $timer,countTo: totalTime){
