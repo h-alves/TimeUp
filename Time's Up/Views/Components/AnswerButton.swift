@@ -43,9 +43,9 @@ struct AnswerButton: View {
     
     func corFont() -> Color{
         if clicked{
-            return Color("Snow Default")
+            return Color("Snow")
         }else{
-            return Color("Penguin Default")
+            return Color("Penguin")
         }
     }
     
@@ -60,7 +60,7 @@ struct AnswerButton: View {
 
 struct AnswerButton_Previews: PreviewProvider {
     static var previews: some View {
-        AnswerButton(answer: .constant(Answer(text: "43 caracteres maximo", texto: "teste", correct: false))){
+        AnswerButton(answer: .constant(Answer(text: "43 caracteres maximo", correct: false))){
             print("a")
         }
     }

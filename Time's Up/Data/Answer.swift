@@ -10,6 +10,5 @@ import Foundation
 struct Answer: Identifiable{
     let id = UUID()
     let text: String
-    let texto: String
     let correct: Bool
 }

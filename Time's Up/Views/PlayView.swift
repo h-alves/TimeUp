@@ -51,14 +51,14 @@ struct PlayView: View {
                         .frame(height: 100)
                 }
                 HStack(spacing: 4){
-                    Image(systemName: question.categoria.symbol)
-                    Text(question.categoria.title)
+                    Image(systemName: question.category.symbol)
+                    Text(question.category.title)
                         .font(.footnote)
                         .fontWeight(.bold)
                 }
                 .fontWeight(.semibold)
             }
-            .foregroundColor(Color("Penguin Default"))
+            .foregroundColor(Color("Penguin"))
             .frame(maxWidth: .infinity)
             .padding(12)
             .background(Color("Dirty Snow"))
@@ -178,6 +178,6 @@ struct PlayView: View {
 
 struct PlayView_Previews: PreviewProvider {
     static var previews: some View {
-        PlayView(question: Question(text: "What woman discovered radium and polonium?", texto: "teste", categoria: Categoria.history, answers: [Answer(text: "Marie Curie", texto: "teste", correct: true), Answer(text: "Katherine Johnson", texto: "teste", correct: false)]))
+        PlayView(question: Question(text: "What woman discovered radium and polonium?", category: Category.history, answers: [Answer(text: "Marie Curie", correct: true), Answer(text: "Katherine Johnson", correct: false)]))
     }
 }

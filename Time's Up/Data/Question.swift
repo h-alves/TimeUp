@@ -14,7 +14,6 @@ struct Question: Identifiable, Equatable{
     
     let id = UUID()
     let text: String
-    let texto: String
-    let categoria: Categoria
+    let category: Category
     let answers: [Answer]
 }

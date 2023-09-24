@@ -16,7 +16,7 @@ struct PlayButton: View {
             Text(texto)
         }
         .fontWeight(.black)
-        .foregroundColor(Color("Snow Default"))
+        .foregroundColor(Color("Snow"))
         .frame(maxWidth: .infinity)
         .padding(16)
         .background(Color("Grass"))

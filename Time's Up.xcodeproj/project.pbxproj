@@ -17,7 +17,7 @@
 		78583F4F2A7ACB6000A954E3 /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F4E2A7ACB6000A954E3 /* AnswerButton.swift */; };
 		78583F512A7ACB6F00A954E3 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F502A7ACB6F00A954E3 /* CountdownView.swift */; };
 		78583F542A7ACC6B00A954E3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F532A7ACC6B00A954E3 /* Question.swift */; };
-		78583F562A7ACC7700A954E3 /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F552A7ACC7700A954E3 /* Categoria.swift */; };
+		78583F562A7ACC7700A954E3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F552A7ACC7700A954E3 /* Category.swift */; };
 		78583F582A7ACC8600A954E3 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F572A7ACC8600A954E3 /* Answer.swift */; };
 		78583F5A2A7ACC9C00A954E3 /* DataQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F592A7ACC9C00A954E3 /* DataQuestions.swift */; };
 		78583FB02A7C674F00A954E3 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583FAF2A7C674F00A954E3 /* PlayButton.swift */; };
@@ -37,7 +37,7 @@
 		78583F4E2A7ACB6000A954E3 /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
 		78583F502A7ACB6F00A954E3 /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
 		78583F532A7ACC6B00A954E3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		78583F552A7ACC7700A954E3 /* Categoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
+		78583F552A7ACC7700A954E3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		78583F572A7ACC8600A954E3 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		78583F592A7ACC9C00A954E3 /* DataQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataQuestions.swift; sourceTree = "<group>"; };
 		78583FAF2A7C674F00A954E3 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
@@ -77,6 +77,7 @@
 			children = (
 				78560D1B2A79ECC200227890 /* Time_s_UpApp.swift */,
 				78560D1D2A79ECC200227890 /* ContentView.swift */,
+				78583F4D2A7ACB0C00A954E3 /* Components */,
 				78583F4C2A7ACB0600A954E3 /* Views */,
 				78583F522A7ACC4900A954E3 /* Data */,
 				78560D1F2A79ECC300227890 /* Assets.xcassets */,
@@ -96,7 +97,6 @@
 		78583F4C2A7ACB0600A954E3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				78583F4D2A7ACB0C00A954E3 /* Components */,
 				78583F462A7ACAA900A954E3 /* HomeView.swift */,
 				78583F482A7ACACE00A954E3 /* PlayView.swift */,
 				78583F4A2A7ACAEA00A954E3 /* ChooseView.swift */,
@@ -113,7 +113,8 @@
 				78583FB12A7C77A100A954E3 /* ResultBox.swift */,
 				78583FB32A7DB30F00A954E3 /* ScoreArea.swift */,
 			);
-			path = Components;
+			name = Components;
+			path = Views/Components;
 			sourceTree = "<group>";
 		};
 		78583F522A7ACC4900A954E3 /* Data */ = {
@@ -121,7 +122,7 @@
 			children = (
 				78583F532A7ACC6B00A954E3 /* Question.swift */,
 				78583F592A7ACC9C00A954E3 /* DataQuestions.swift */,
-				78583F552A7ACC7700A954E3 /* Categoria.swift */,
+				78583F552A7ACC7700A954E3 /* Category.swift */,
 				78583F572A7ACC8600A954E3 /* Answer.swift */,
 			);
 			path = Data;
@@ -204,7 +205,7 @@
 				78583FB02A7C674F00A954E3 /* PlayButton.swift in Sources */,
 				78583F512A7ACB6F00A954E3 /* CountdownView.swift in Sources */,
 				78583FB22A7C77A100A954E3 /* ResultBox.swift in Sources */,
-				78583F562A7ACC7700A954E3 /* Categoria.swift in Sources */,
+				78583F562A7ACC7700A954E3 /* Category.swift in Sources */,
 				78583F4B2A7ACAEA00A954E3 /* ChooseView.swift in Sources */,
 				78583F582A7ACC8600A954E3 /* Answer.swift in Sources */,
 				78560D1C2A79ECC200227890 /* Time_s_UpApp.swift in Sources */,
