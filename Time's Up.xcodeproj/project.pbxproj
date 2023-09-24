@@ -11,6 +11,19 @@
 		78560D1E2A79ECC200227890 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78560D1D2A79ECC200227890 /* ContentView.swift */; };
 		78560D202A79ECC300227890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78560D1F2A79ECC300227890 /* Assets.xcassets */; };
 		78560D232A79ECC300227890 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78560D222A79ECC300227890 /* Preview Assets.xcassets */; };
+		78583F472A7ACAA900A954E3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F462A7ACAA900A954E3 /* HomeView.swift */; };
+		78583F492A7ACACE00A954E3 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F482A7ACACE00A954E3 /* PlayView.swift */; };
+		78583F4B2A7ACAEA00A954E3 /* ChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F4A2A7ACAEA00A954E3 /* ChooseView.swift */; };
+		78583F4F2A7ACB6000A954E3 /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F4E2A7ACB6000A954E3 /* AnswerButton.swift */; };
+		78583F512A7ACB6F00A954E3 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F502A7ACB6F00A954E3 /* CountdownView.swift */; };
+		78583F542A7ACC6B00A954E3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F532A7ACC6B00A954E3 /* Question.swift */; };
+		78583F562A7ACC7700A954E3 /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F552A7ACC7700A954E3 /* Categoria.swift */; };
+		78583F582A7ACC8600A954E3 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F572A7ACC8600A954E3 /* Answer.swift */; };
+		78583F5A2A7ACC9C00A954E3 /* DataQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583F592A7ACC9C00A954E3 /* DataQuestions.swift */; };
+		78583FAE2A7C40B700A954E3 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583FAD2A7C40B700A954E3 /* Language.swift */; };
+		78583FB02A7C674F00A954E3 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583FAF2A7C674F00A954E3 /* PlayButton.swift */; };
+		78583FB22A7C77A100A954E3 /* ResultBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583FB12A7C77A100A954E3 /* ResultBox.swift */; };
+		78583FB42A7DB30F00A954E3 /* ScoreArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78583FB32A7DB30F00A954E3 /* ScoreArea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,19 @@
 		78560D1D2A79ECC200227890 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78560D1F2A79ECC300227890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78560D222A79ECC300227890 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78583F462A7ACAA900A954E3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		78583F482A7ACACE00A954E3 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		78583F4A2A7ACAEA00A954E3 /* ChooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseView.swift; sourceTree = "<group>"; };
+		78583F4E2A7ACB6000A954E3 /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
+		78583F502A7ACB6F00A954E3 /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		78583F532A7ACC6B00A954E3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		78583F552A7ACC7700A954E3 /* Categoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
+		78583F572A7ACC8600A954E3 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		78583F592A7ACC9C00A954E3 /* DataQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataQuestions.swift; sourceTree = "<group>"; };
+		78583FAD2A7C40B700A954E3 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		78583FAF2A7C674F00A954E3 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		78583FB12A7C77A100A954E3 /* ResultBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultBox.swift; sourceTree = "<group>"; };
+		78583FB32A7DB30F00A954E3 /* ScoreArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreArea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +79,8 @@
 			children = (
 				78560D1B2A79ECC200227890 /* Time_s_UpApp.swift */,
 				78560D1D2A79ECC200227890 /* ContentView.swift */,
+				78583F4C2A7ACB0600A954E3 /* Views */,
+				78583F522A7ACC4900A954E3 /* Data */,
 				78560D1F2A79ECC300227890 /* Assets.xcassets */,
 				78560D212A79ECC300227890 /* Preview Content */,
 			);
@@ -65,6 +93,41 @@
 				78560D222A79ECC300227890 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78583F4C2A7ACB0600A954E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78583F4D2A7ACB0C00A954E3 /* Components */,
+				78583F462A7ACAA900A954E3 /* HomeView.swift */,
+				78583F482A7ACACE00A954E3 /* PlayView.swift */,
+				78583F4A2A7ACAEA00A954E3 /* ChooseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78583F4D2A7ACB0C00A954E3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				78583FAF2A7C674F00A954E3 /* PlayButton.swift */,
+				78583F4E2A7ACB6000A954E3 /* AnswerButton.swift */,
+				78583F502A7ACB6F00A954E3 /* CountdownView.swift */,
+				78583FB12A7C77A100A954E3 /* ResultBox.swift */,
+				78583FB32A7DB30F00A954E3 /* ScoreArea.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		78583F522A7ACC4900A954E3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				78583F532A7ACC6B00A954E3 /* Question.swift */,
+				78583F592A7ACC9C00A954E3 /* DataQuestions.swift */,
+				78583FAD2A7C40B700A954E3 /* Language.swift */,
+				78583F552A7ACC7700A954E3 /* Categoria.swift */,
+				78583F572A7ACC8600A954E3 /* Answer.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +158,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					78560D172A79ECC200227890 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -137,8 +200,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78583F472A7ACAA900A954E3 /* HomeView.swift in Sources */,
+				78583F542A7ACC6B00A954E3 /* Question.swift in Sources */,
 				78560D1E2A79ECC200227890 /* ContentView.swift in Sources */,
+				78583F492A7ACACE00A954E3 /* PlayView.swift in Sources */,
+				78583FB02A7C674F00A954E3 /* PlayButton.swift in Sources */,
+				78583F512A7ACB6F00A954E3 /* CountdownView.swift in Sources */,
+				78583FB22A7C77A100A954E3 /* ResultBox.swift in Sources */,
+				78583FAE2A7C40B700A954E3 /* Language.swift in Sources */,
+				78583F562A7ACC7700A954E3 /* Categoria.swift in Sources */,
+				78583F4B2A7ACAEA00A954E3 /* ChooseView.swift in Sources */,
+				78583F582A7ACC8600A954E3 /* Answer.swift in Sources */,
 				78560D1C2A79ECC200227890 /* Time_s_UpApp.swift in Sources */,
+				78583F5A2A7ACC9C00A954E3 /* DataQuestions.swift in Sources */,
+				78583F4F2A7ACB6000A954E3 /* AnswerButton.swift in Sources */,
+				78583FB42A7DB30F00A954E3 /* ScoreArea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +257,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -241,6 +318,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -282,9 +360,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.haskz.Time-s-Up";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -311,9 +392,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.haskz.Time-s-Up";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
